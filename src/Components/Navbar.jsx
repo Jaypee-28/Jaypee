@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../assets/Img/dev.png';
 import { motion } from 'framer-motion';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,17 +25,17 @@ const Navbar = () => {
           </a>
 
           <ul className="flex gap-4">
-            <li className="hover:text-blue-500 hover:cursor-pointer duration-300 ">Home</li>
-            <li className="hover:text-blue-500 hover:cursor-pointer duration-300">About</li>
-            <li className="hover:text-blue-500 hover:cursor-pointer duration-300">Projects</li>
-            <li class="relative group">
-        <a href="#" className="hover:text-blue-500">Contact</a>
-        <span className="absolute left-1/4 bottom-0 w-1/2 h-[2px] bg-blue-500 scale-x-0 group-hover:scale-x-100 transform transition-transform"></span>
-      </li>
+            <Link to='home' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300 ">Home</Link> 
+
+            <Link to='about' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300">About</Link>
+
+            <Link to='project' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300">Projects</Link>
+
+            <Link to='contact' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300">Contact</Link>
           </ul>
 
           <button className="py-2 px-4 text-white border border-blue-500 rounded-[40px] font-semibold bg-blue-500 duration-500 hover:bg-blue-400">
-            Hire Me
+            <a href="https://wa.me/message/L7LUGESAX775M1" target='_blank'>Hire Me</a>
           </button>
         </div>
 
@@ -80,11 +81,14 @@ const Navbar = () => {
             transition={{ duration: 1 }}
           >
 
-            <ul className="flex flex-col gap-4 px-6 pt-16 text-center">
-            <li className="hover:text-blue-500 hover:cursor-pointer duration-300">Home</li>
-            <li className="hover:text-blue-500 hover:cursor-pointer duration-300">About</li>
-            <li className="hover:text-blue-500 hover:cursor-pointer duration-300">Projects</li>
-            <li className="hover:text-blue-500 hover:cursor-pointer duration-300">Contact</li>
+          <ul className="flex flex-col justify-center text-center pt-8 gap-4">
+            <Link to='home' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300 ">Home</Link> 
+
+            <Link to='about' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300">About</Link>
+
+            <Link to='project' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300">Projects</Link>
+
+            <Link to='contact' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300">Contact</Link>
           </ul>
 
           </motion.div>

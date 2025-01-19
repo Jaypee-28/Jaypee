@@ -60,7 +60,7 @@ const About = () => {
 
 
   return (
-    <section className='md:px-[110px] py-16 max-md:py-32 bg-gray-950 text-white max-md:px-4'>
+    <section id="about" className='md:px-[110px] py-16 max-md:py-32 bg-gray-950 text-white max-md:px-4'>
 
       <div className='grid grid-cols-2 gap-8 max-md:grid-cols-1'>
 

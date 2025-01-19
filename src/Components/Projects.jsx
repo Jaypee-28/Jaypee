@@ -9,7 +9,7 @@ const Projects = () => {
 
 
   return (
-    <section className='md:px-[110px]  bg-gray-950 max-md:px-4 py-16'>
+    <section id='project' className='md:px-[110px]  bg-gray-950 max-md:px-4 pb-16'>
 
       <h1 className='text-center font-bold text-3xl text-blue-500'>My Projects</h1>
       <p className='text-center text-xl font-semibold text-gray-200'>Some inspiring projects I've worked on.</p>

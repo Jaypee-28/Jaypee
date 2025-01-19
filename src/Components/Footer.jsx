@@ -2,13 +2,14 @@ import React from 'react'
 import { FaLinkedin, FaTwitter, FaGithub, FaWhatsapp, FaLocationDot } from 'react-icons/fa6'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
+import { Link } from 'react-scroll'
 
 
 const Footer = () => {
 
   
   return (
-    <section className='md:px-[110px] py-8 bg-gray-950 text-white '>
+    <section id='contact' className='md:px-[110px] py-8 bg-gray-950 text-white '>
 
       <div className='flex justify-between gap-8 max-md:flex-col max-md:pl-16 max-md:pr-4'>
 
@@ -19,10 +20,14 @@ const Footer = () => {
 
         <div className='flex flex-col gap-2'>
           <h1 className='font-semibold text-xl'>Quick Links</h1>
-          <li className='cursor-pointer'>Home</li>
-          <li className='cursor-pointer'>About</li>
-          <li className='cursor-pointer'>Projects</li>
-          <li className='cursor-pointer'>Contact</li>
+
+          <li className='cursor-pointer'><Link to='home' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300 ">Home</Link></li>
+
+          <li className='cursor-pointer'><Link to='about' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300 ">About</Link></li>
+
+          <li className='cursor-pointer'><Link to='project' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300 ">Projects</Link></li>
+
+          <li className='cursor-pointer'><Link to='contact' smooth={true} activeStyle={"text-blue-500"} duration={500} className="hover:text-blue-500 hover:cursor-pointer duration-300 ">Contact</Link></li>
         </div>
 
         <div className='flex flex-col gap-2'>
@@ -35,10 +40,10 @@ const Footer = () => {
         <div className='flex flex-col gap-2'>
           <h1 className='font-semibold text-xl'>Socials</h1>
           <ul className='flex gap-2'>
-            <FaWhatsapp className='text-xl'/>
-            <FaTwitter className='text-xl'r/>
-            <FaGithub className='text-xl'/>
-            <FaLinkedin className='text-xl'/>
+            <a href="https://wa.me/message/L7LUGESAX775M1" target='_blank'><FaWhatsapp className='text-xl'/></a>
+            <a href="https://wa.me/message/L7LUGESAX775M1" target='_blank'><FaTwitter className='text-xl'/></a>
+            <a href="https://wa.me/message/L7LUGESAX775M1" target='_blank'><FaGithub className='text-xl'/></a>
+            <a href="https://wa.me/message/L7LUGESAX775M1" target='_blank'><FaLinkedin className='text-xl'/></a>
           </ul>
         </div>
 

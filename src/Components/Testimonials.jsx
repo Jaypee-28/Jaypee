@@ -14,8 +14,8 @@ const Testimonials = () => {
       Quote: FaQuoteLeft,
       comment: 'Jaypee is an exceptional developer who brings captivity and precision to every project. Working with him was an absolute pleasure.',
       Image: Profile,
-      Name: 'Jane Doe',
-      Role: 'Project Manager',
+      Name: 'Ndubuaku Chikaire C.',
+      Role: 'CEO Chitech Global Computers',
     },
 
     {
@@ -23,8 +23,8 @@ const Testimonials = () => {
       Quote: FaQuoteLeft,
       comment: 'Working with Jaypee was one of the best decisions I made for my project. His technical expertise and dedication to deadlines were impressive. Highly recommended!',
       Image: Profile,
-      Name: 'Mrs Igwe',
-      Role: 'Project Manager',
+      Name: 'Mrs Doris Madueke',
+      Role: 'CEO DBright Phones & Accessories',
     },
 
     {
@@ -32,8 +32,8 @@ const Testimonials = () => {
       Quote: FaQuoteLeft,
       comment: 'His attention to details and ability to solve complex problems are unmatched, Highly recommend working with Jaypee.',
       Image: Profile,
-      Name: 'John Smith',
-      Role: 'Project Manager',
+      Name: 'Lydia Ugo',
+      Role: 'Project Manager at TechWave',
     },
 
     {
@@ -41,8 +41,8 @@ const Testimonials = () => {
       Quote: FaQuoteLeft,
       comment: 'Jaypee ability to take an idea and turn it into a fully functional, user-friendly product is incredible. He goes above and beyond to deliver quality work',
       Image: Profile,
-      Name: 'Treasure Mark',
-      Role: 'Project Manager',
+      Name: 'Franklin Nwachukwu',
+      Role: 'Founder GLK Exchange',
     },
 
   ];
@@ -84,15 +84,18 @@ const Testimonials = () => {
 
           <div style={{
             boxShadow: "0 0 15px #6B7280"
-          }} key={card.id} className='flex flex-col gap-2 p-4 shadow-lg shadow-gray-800 rounded-lg'>
+          }} key={card.id} className='flex flex-col gap-2 p-4 shadow-lg shadow-gray-800 rounded-bl-[40px] rounded-tr-[40px]'>
 
             <card.Quote className='text-4xl'/>
 
             <p>{card.comment}</p>
 
             <div className='flex gap-2 items-center'>
-              <img className='w-[50px]' src={card.Image} alt="" />
+              <img className='w-[60px]' src={card.Image} alt="" />
+              <div>
               <h2 className='font-bold text-xl'>{card.Name}</h2>
+              <p>{card.Role}</p>
+              </div>
             </div>
 
           </div>

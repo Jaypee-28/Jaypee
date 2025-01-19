@@ -1,6 +1,6 @@
 import React from 'react'
 import aboutImage from '../assets/Img/About-icon.png'
-import { FaUsers, FaSearchDollar, FaGraduationCap, } from "react-icons/fa";
+import { FaUsers, FaSearchDollar, FaGraduationCap, FaHeart } from "react-icons/fa";
 import { BsListCheck } from 'react-icons/bs';
 import { MdOutlineCalculate } from 'react-icons/md';
 import { motion } from 'framer-motion';

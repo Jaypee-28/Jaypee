@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Profile from '../assets/Img/Profile.png'
-import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
+import { FaArrowRight, FaArrowLeft, FaQuoteRight } from 'react-icons/fa';
 
 
 const Testimonials = () => {
@@ -11,6 +11,7 @@ const Testimonials = () => {
   const Reviews = [
     {
       id: 1,
+      Quote: FaQuoteRight,
       comment: 'Jaypee is an exceptional developer who brings captivity and precision to every project. Working with him was an absolute pleasure.',
       Image: Profile,
       Name: 'Jane Doe',
@@ -19,6 +20,7 @@ const Testimonials = () => {
 
     {
       id: 2,
+      Quote: FaQuoteRight,
       comment: 'Working with Jaypee was one of the best decisions I made for my project. His technical expertise and dedication to deadlines were impressive. Highly recommended!',
       Image: Profile,
       Name: 'Mrs Igwe',
@@ -27,6 +29,7 @@ const Testimonials = () => {
 
     {
       id: 3,
+      Quote: FaQuoteRight,
       comment: 'His attention to details and ability to solve complex problems are unmatched, Highly recommend working with Jaypee.',
       Image: Profile,
       Name: 'John Smith',
@@ -35,6 +38,7 @@ const Testimonials = () => {
 
     {
       id: 4,
+      Quote: FaQuoteRight,
       comment: 'Jaypee ability to take an idea and turn it into a fully functional, user-friendly product is incredible. He goes above and beyond to deliver quality work',
       Image: Profile,
       Name: 'Treasure Mark',
@@ -81,6 +85,8 @@ const Testimonials = () => {
           <div style={{
             boxShadow: "0 0 15px #6B7280"
           }} key={card.id} className='flex flex-col gap-2 p-4 shadow-lg shadow-gray-800 rounded-lg'>
+
+            <card.Quote className='text-4xl'/>
 
             <p>{card.comment}</p>
 

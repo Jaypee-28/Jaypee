@@ -71,7 +71,7 @@ const About = () => {
           <p className=''>I'm a creative frontend developer with expertise in building sleek, responsive, and user-friendly websites. My passion lies in transforming ideas into code and delivering impactful digital solutions.</p>
           <p className='text-lg'>With skills in React, Tailwind CSS, and JavaScript, I am constantly learning and evolving to stay ahead in the ever-changing world of web development.</p>
           <p className='text-lg'>I believe that technology should not only work but inspire. My goal is to build solutions that make life easier and more enjoyable, one line of code at a time.</p>
-          <button className='p-2 px-6 rounded-[40px] border border-blue-500 font-semibold'>Let's Connect!</button>
+          <button className='p-2 px-6 rounded-[40px] border border-blue-500 font-semibold'><a href="https://wa.me/message/L7LUGESAX775M1">Let's Connect</a></button>
         </div>
 
       </div>

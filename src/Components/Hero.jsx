@@ -21,7 +21,7 @@ const Hero = () => {
             <h1 className='font-semibold md:text-7xl max-md:text-4xl text-blue-500' >Maxwell Johnpaul</h1>
             <p className='font-semibold text-xl'>A Frontend Developer</p>
             <p className='italic'>...Turning ideas into visually stunning and highly functional digital experiences</p>
-            <div className='text-center gap-4 flex max-md:justify-center max-md:ml-[120px]'>
+            <div className='text-center gap-4 flex max-md:justify-center'>
               <motion.button
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}

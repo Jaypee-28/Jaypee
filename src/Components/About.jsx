@@ -1,8 +1,8 @@
 import React from 'react'
 import aboutImage from '../assets/Img/About-icon.png'
-import { FaHeart, FaLightbulb, } from "react-icons/fa";
 import { FaUsers, FaSearchDollar, FaGraduationCap, } from "react-icons/fa";
 import { BsListCheck } from 'react-icons/bs';
+import { MdOutlineCalculate } from 'react-icons/md';
 import { motion } from 'framer-motion';
 
 
@@ -19,7 +19,7 @@ const About = () => {
 
     { 
       id: 2,
-      icon: FaLightbulb,
+      icon: MdOutlineCalculate,
       title: "Zeal for problem-solving",
       content: "I thrive on challenges and take pride in finding innovative solutions to complex problems.Your success is my top priority.",
 

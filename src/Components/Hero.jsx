@@ -17,7 +17,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 2 }}
           >
-            <p>Hey there, I'm</p>
+            <p>Hey there 😍, I'm</p>
             <h1 className='font-semibold md:text-7xl max-md:text-4xl text-blue-500' >Maxwell Johnpaul</h1>
             <p className='font-semibold text-xl'>A Frontend Developer</p>
             <p className='italic'>...Turning ideas into visually stunning and highly functional digital experiences</p>
@@ -35,7 +35,7 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1, duration: 1 }}
-              className='bg-blue-500 text-white py-2 px-4 rounded-[40px] hover:bg-blue-400 duration-300'>Contact</motion.button>
+              className='bg-blue-500 text-white py-2 px-4 rounded-[40px] hover:bg-blue-400 duration-300'><a href="https://wa.me/message/L7LUGESAX775M1">Contact</a></motion.button>
             </div>
           </motion.div>
 

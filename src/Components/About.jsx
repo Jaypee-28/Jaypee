@@ -53,7 +53,7 @@ const About = () => {
       id: 6,
       icon: FaGraduationCap,
       title: "Continous  Learning",
-      content: "Technology evolves, and so do I. As a develper I'm not just resting on what I know, I'm constantly exploring and always learning, improving, and striving for excellence.",
+      content: "Technology evolves, and so do I. As a developer I'm not just resting on what I know, I'm constantly exploring and always learning, improving, and striving for excellence.",
 
     },
   ];

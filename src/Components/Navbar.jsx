@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section>
+    <section className=''>
       <nav className="bg-gray-700 ">
         {/* DESKTOP VIEW */}
         <div className="flex justify-between text-white py-4 px-[110px] items-center max-md:hidden">

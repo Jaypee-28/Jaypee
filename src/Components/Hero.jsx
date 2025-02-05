@@ -45,7 +45,7 @@ const Hero = () => {
             animate={{ x: 0 }}
             transition={{ duration: 2 }}
           >
-            <img className='w-[400px]' src={headerImage} alt="" />
+            <img className='w-[400px]' src={headerImage} alt="Portfolio image" />
           </motion.div>
 
         </div>

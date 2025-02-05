@@ -21,24 +21,24 @@ const Projects = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 1 }}
         style={{boxShadow: "0 0 15px #3B82F6"}} className='p-4 rounded-lg flex flex-col gap-2'>
-          <img className='rounded-lg' src={Billswift} alt="" />
+          <img className='rounded-lg' src={Billswift} alt="billswift screenshot" />
           <h1 className='text-blue-500 font-bold text-2xl'>BillSwift</h1>
           <p className='text-white'>A VTU platform, where you can seamlessly recharge and pay your bills.</p>
         </motion.div>
 
         <div style={{boxShadow: "0 0 15px #3B82F6"}} className='p-4 rounded-lg flex flex-col gap-2'>
-          <img className='rounded-lg' src={Vintage} alt="" />
+          <img className='rounded-lg' src={Vintage} alt="vintage screenshot" />
           <h1 className='text-blue-500 font-bold text-2xl'>Vintage Exchange</h1>
           <p className='text-white'>A Vintage clothing exchange platform where you can buy and sell your vintages materials.</p>
         </div>
 
         <div style={{boxShadow: "0 0 15px #3B82F6"}} className='p-4 rounded-lg flex flex-col gap-2 md:hidden'>
-          <img className='h-[200px]' src={Patungans} alt="" />
+          <img className='h-[200px]' src={Patungans} alt="patungans screenshot" />
           <h1 className='text-blue-500 font-bold text-2xl'>Patungans</h1>
         </div>
 
         <div style={{boxShadow: "0 0 15px #3B82F6"}} className='p-4 rounded-lg flex flex-col gap-2'>
-          <img className='h-[md:200px] rounded-lg' src={Estate} alt="" />
+          <img className='h-[md:200px] rounded-lg' src={Estate} alt="estate screenshot" />
           <h1 className='text-blue-500 font-bold text-2xl'>Sky Estate</h1>
           <p className='text-white'>A real estate platform where you can easily purchase landed properties, etc.</p>
         </div>

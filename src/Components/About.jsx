@@ -64,7 +64,7 @@ const About = () => {
 
       <div className='grid grid-cols-2 gap-8 max-md:grid-cols-1'>
 
-        <img src={aboutImage} alt="" />
+        <img src={aboutImage} alt="About image" />
 
         <div className='flex flex-col gap-2 mt-4'>
           <h1 className='font-bold text-3xl text-blue-500'>ABOUT ME</h1>

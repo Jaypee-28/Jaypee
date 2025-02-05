@@ -7,6 +7,7 @@ import Testimonials from './Components/Testimonials';
 import Footer from './Components/Footer';
 import ScrollingIcons from './Components/ScrollingIcons';
 import { FaArrowUp } from 'react-icons/fa';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
 

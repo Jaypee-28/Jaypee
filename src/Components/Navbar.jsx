@@ -19,7 +19,7 @@ const Navbar = () => {
             <img
               className="w-[70px] rounded-full inline-block"
               src={Logo}
-              alt=""
+              alt="portfolio logo"
             />
             Jaypee
           </a>

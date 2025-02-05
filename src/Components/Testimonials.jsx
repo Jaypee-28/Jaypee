@@ -91,7 +91,7 @@ const Testimonials = () => {
             <p>{card.comment}</p>
 
             <div className='flex gap-2 items-center'>
-              <img className='w-[60px]' src={card.Image} alt="" />
+              <img className='w-[60px]' src={card.Image} alt="profile image" />
               <div>
               <h2 className='font-bold text-xl'>{card.Name}</h2>
               <p>{card.Role}</p>
